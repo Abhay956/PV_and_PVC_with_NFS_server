@@ -4,7 +4,7 @@ sudo systemctl start nfs-server
 sudo mkdir /test
 sudo mkdir /test2
 sudo chmod 777 /test
-sudo chmod 777 /test2l
+sudo chmod 777 /test2
 sudo chown nobody:nogroup /test
 sudo chown nobody:nogroup /test2
 sudo echo "/test *(rw,sync,no_root_squash)" >> /etc/exports
