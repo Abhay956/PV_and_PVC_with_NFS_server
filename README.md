@@ -5,5 +5,12 @@ First To create a NFS-SERVER, run the nfs-setup.sh file on your node.
 
 $ sh nfs-setup
 
+Use this step in the master node.
 
+$ apt install nfs-common -y
+$ git clone https://github.com/Abhay956/PV_and_PVC_with_NFS_server.git
+$ cd PV_and_PVC_with_NFS_server
 
+Set the NFS server IP address in the pv.yml and pv2.yml files, then run the command
+
+$ kubectl apply -f .
