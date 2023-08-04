@@ -6,7 +6,7 @@ First To create a NFS-SERVER, run the nfs-setup.sh file on your node.
 
 $ sh nfs-setup
 
-Use this step in the master node.
+Use these step in the master node.
 
 
 $ apt install nfs-common -y
