@@ -5,7 +5,7 @@
 
 ### Before you start.
 
-For this example, you need a Kubernetes cluster and one other node for the NFS server. First, you create the NFS server by running the script nfs-setup.sh. This script will create an NFS server for you in minutes.
+For this example, you need a Kubernetes cluster and one other node for the NFS server. First, you create the NFS server by running the script nfs-setup.sh. This script will create an NFS server for you in 1 minutes.
 
 first, Create NFS-server.
 
