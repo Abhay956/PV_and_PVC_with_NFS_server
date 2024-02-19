@@ -15,7 +15,7 @@ first, Create NFS-server.
  sh nfs-setup.sh
 ```
 
-All of these commands are then executed on the master-node.
+This command execute on the all Worker-node.
 ```bash
  apt install nfs-common -y
 ```
